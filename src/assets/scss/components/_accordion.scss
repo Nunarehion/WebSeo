@@ -22,9 +22,12 @@
     }
   
     &__content {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
       padding: var(--main-space);
-      display: none;
-      background: var(--bg-secondary);
+      background: var(--bg-primary);
+      outline: none;
     }
   
     &--active {

@@ -18,13 +18,11 @@
 @use "./components/button";
 @use "./components/modal";
 @use "./components/panel";
+@use "./components/header";
+@use "./components/sidebar";
 
 // sections
 
-
-// layout
-@use "./layout/header";
-@use "./layout/sidebar";
 
 // Pages
 @use "./pages/home";
