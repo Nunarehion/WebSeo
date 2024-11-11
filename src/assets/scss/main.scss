@@ -12,15 +12,19 @@
 @use "./helpers/global";
 
 // components
-@use "./components/overlay";
-@use "./components/burger";
+@use "./components/accordion";
+@use "./components/dropdown";
+@use "./components/icon";
+@use "./components/button";
+@use "./components/modal";
+@use "./components/panel";
 
 // sections
-@use "./sections/hero";
+
 
 // layout
 @use "./layout/header";
-@use "./layout/footer";
+@use "./layout/sidebar";
 
 // Pages
 @use "./pages/home";

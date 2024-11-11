@@ -76,3 +76,20 @@ body {
 // 	font-family: monospace, monospace;
 // 	font-size: inherit;
 // }
+
+
+* {
+    box-sizing: border-box;
+    line-height: 1;
+    user-select: none;
+  }
+  
+  html {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

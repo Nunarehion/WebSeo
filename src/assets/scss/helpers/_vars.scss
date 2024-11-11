@@ -1,11 +1,10 @@
 :root {
-	--font-family: "Segoe UI", sans-serif;
-	--primary: #222;
+  --bg-primary: white;
+  --bg-secondary: #F7F7F7;
+  --text-color-primary: #404040;
+  --text-color-secondary: #747474;
+  --accent-color: #0076F5;
+  --main-space: 1rem;
+  --shadow-md: 0 0 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 0 15px rgba(0, 0, 0, 0.1);
 }
-
-// screens
-$xxl: 1920px;
-$xl: 1440px;
-$lg: 1024px;
-$md: 768px;
-$sm: 480px;
